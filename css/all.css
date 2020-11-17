@@ -2,6 +2,7 @@
 header {
   height: 75px;
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 header .header {
   line-height: 75px;
