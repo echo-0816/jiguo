@@ -1,0 +1,123 @@
+/* 头部 */
+header {
+    height: 75px;
+    background-color: #fff;
+
+    .header {
+        line-height: 75px;
+
+        &>ul:nth-of-type(1) {
+            float: left;
+
+            li {
+                float: left;
+                margin-right: 60px;
+
+                a {
+                    font-size: 16px;
+                }
+            }
+
+            li:nth-of-type(1) {
+                img {
+                    width: 140px;
+                    height: 50px;
+                }
+            }
+        }
+
+        &>ul:nth-of-type(2) {
+            float: right;
+
+            li {
+                float: left;
+                margin-left: 30px;
+
+                button {
+                    padding: 3px 10px;
+                    background-color: #fff;
+                    color: #ff514d;
+                    border: 1px solid #ff514d;
+                    border-radius: 5px;
+
+                }
+            }
+        }
+    }
+}
+
+/* 尾部 */
+footer {
+    background-color: #505050;
+    height: 300px;
+    margin-top: 500px;
+    color: #929291;
+    padding-top: 30px;
+
+    .left {
+        float: left;
+        height: 170px;
+
+        div {
+            float: left;
+        }
+
+        &>div:nth-of-type(1) {
+            img {
+                width: 160px;
+            }
+        }
+
+        &>div:nth-of-type(2) {
+            margin-left: 20px;
+            width: 130px;
+
+            &>p:nth-of-type(1) {
+                margin-top: 25px;
+            }
+
+            &>p:nth-of-type(2) {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .right {
+        float: left;
+
+        dl {
+            float: left;
+            margin-left: 30px;
+
+            dt {
+                margin-bottom: 30px;
+                color: #fff;
+
+            }
+
+            dd {
+                a {
+                    color: #929291;
+                }
+
+                a:hover {
+                    color: #ff514d;
+                }
+            }
+        }
+
+        &>dl:nth-of-type(2) {
+            width: 120px;
+
+            dd {
+                float: left;
+                width: 60px;
+            }
+        }
+    }
+
+    .bottom {
+        text-align: center;
+        margin-top: 80px;
+    }
+}
