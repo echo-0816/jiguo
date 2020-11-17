@@ -8,57 +8,35 @@
 .use .use-top h1 {
   font-size: 20px;
   line-height: 30px;
-  margin-left: 670px;
+  text-align: center;
 }
 .use .use-top .text {
-  margin-left: 550px;
+  text-align: center;
   margin-top: 46px;
   height: 40px;
 }
-.use .use-top .text .title {
-  float: left;
+.use .use-top .text a {
   font-size: 14px;
   width: 164px;
-  height: 40px;
-}
-.use .use-top .text .title a {
   text-align: center;
   color: #cccccc;
-  display: block;
+  display: inline-block;
   height: 40px;
 }
-.use .use-top .text .title a:hover {
+.use .use-top .text a:hover {
   color: #f75541;
-  width: 164px;
-  border-bottom: 2px solid red;
-}
-.use .use-top .text .title-1 {
-  float: left;
-  font-size: 14px;
-  width: 164px;
-  height: 40px;
-}
-.use .use-top .text .title-1 a {
-  text-align: center;
-  color: #cccccc;
-  display: block;
-  height: 40px;
-}
-.use .use-top .text .title-1 a:hover {
-  color: #f75541;
-  width: 164px;
   border-bottom: 2px solid red;
 }
 .use .use-top ul {
-  padding-left: 350px;
+  text-align: center;
   width: 100%;
   padding-top: 15px;
   border-top: 1px solid #cccccc;
 }
 .use .use-top ul li {
-  float: left;
+  display: inline-block;
   font-size: 14px;
-  margin-left: 120px;
+  margin-left: 150px;
 }
 .use .use-top ul li a {
   color: #cccccc;
