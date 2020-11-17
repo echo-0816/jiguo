@@ -1,0 +1,84 @@
+.use {
+  width: 100%;
+  margin-top: 50px;
+}
+.use .use-top {
+  width: 100%;
+}
+.use .use-top h1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 670px;
+}
+.use .use-top .text {
+  margin-left: 550px;
+  margin-top: 46px;
+  height: 40px;
+}
+.use .use-top .text .title {
+  float: left;
+  font-size: 14px;
+  width: 164px;
+  height: 40px;
+}
+.use .use-top .text .title a {
+  text-align: center;
+  color: #cccccc;
+  display: block;
+  height: 40px;
+}
+.use .use-top .text .title a:hover {
+  color: #f75541;
+  width: 164px;
+  border-bottom: 2px solid red;
+}
+.use .use-top .text .title-1 {
+  float: left;
+  font-size: 14px;
+  width: 164px;
+  height: 40px;
+}
+.use .use-top .text .title-1 a {
+  text-align: center;
+  color: #cccccc;
+  display: block;
+  height: 40px;
+}
+.use .use-top .text .title-1 a:hover {
+  color: #f75541;
+  width: 164px;
+  border-bottom: 2px solid red;
+}
+.use .use-top ul {
+  padding-left: 350px;
+  width: 100%;
+  padding-top: 15px;
+  border-top: 1px solid #cccccc;
+}
+.use .use-top ul li {
+  float: left;
+  font-size: 14px;
+  margin-left: 120px;
+}
+.use .use-top ul li a {
+  color: #cccccc;
+}
+.use .use-top ul li a:hover {
+  color: #54434e;
+}
+.use .use-bottom {
+  background-color: #f7f7f7;
+}
+.use .use-bottom .shop {
+  padding-top: 26px;
+  margin: 0 auto;
+  width: 1000px;
+}
+.use .use-bottom .new {
+  padding-top: 44px;
+  text-align: center;
+}
+.use .use-bottom .new a {
+  color: #f75541;
+  font-size: 14px;
+}
