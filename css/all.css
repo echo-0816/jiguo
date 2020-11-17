@@ -1,0 +1,92 @@
+/* 头部 */
+header {
+  height: 75px;
+  background-color: #fff;
+}
+header .header {
+  line-height: 75px;
+}
+header .header > ul:nth-of-type(1) {
+  float: left;
+}
+header .header > ul:nth-of-type(1) li {
+  float: left;
+  margin-right: 60px;
+}
+header .header > ul:nth-of-type(1) li a {
+  font-size: 16px;
+}
+header .header > ul:nth-of-type(1) li:nth-of-type(1) img {
+  width: 140px;
+  height: 50px;
+}
+header .header > ul:nth-of-type(2) {
+  float: right;
+}
+header .header > ul:nth-of-type(2) li {
+  float: left;
+  margin-left: 30px;
+}
+header .header > ul:nth-of-type(2) li button {
+  padding: 3px 10px;
+  background-color: #fff;
+  color: #ff514d;
+  border: 1px solid #ff514d;
+  border-radius: 5px;
+}
+/* 尾部 */
+footer {
+  background-color: #505050;
+  height: 300px;
+  margin-top: 500px;
+  color: #929291;
+  padding-top: 30px;
+}
+footer .left {
+  float: left;
+  height: 170px;
+}
+footer .left div {
+  float: left;
+}
+footer .left > div:nth-of-type(1) img {
+  width: 160px;
+}
+footer .left > div:nth-of-type(2) {
+  margin-left: 20px;
+  width: 130px;
+}
+footer .left > div:nth-of-type(2) > p:nth-of-type(1) {
+  margin-top: 25px;
+}
+footer .left > div:nth-of-type(2) > p:nth-of-type(2) {
+  margin-top: 15px;
+}
+footer .right {
+  float: left;
+}
+footer .right dl {
+  float: left;
+  margin-left: 30px;
+}
+footer .right dl dt {
+  margin-bottom: 30px;
+  color: #fff;
+}
+footer .right dl dd a {
+  color: #929291;
+}
+footer .right dl dd a:hover {
+  color: #ff514d;
+}
+footer .right > dl:nth-of-type(2) {
+  width: 120px;
+}
+footer .right > dl:nth-of-type(2) dd {
+  float: left;
+  width: 60px;
+}
+footer .bottom {
+  text-align: center;
+  margin-top: 80px;
+}
