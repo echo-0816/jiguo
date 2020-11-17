@@ -1,0 +1,81 @@
+nav {
+  background-color: #fff;
+  height: 170px;
+  margin-bottom: 20px;
+}
+nav .nav > div:nth-of-type(1) {
+  height: 100px;
+  line-height: 140px;
+  width: 100%;
+}
+nav .nav > div:nth-of-type(1) h1 {
+  position: absolute;
+  left: 730px;
+  font-size: 20px;
+  color: #4c4838;
+}
+nav .nav > div:nth-of-type(2) {
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+nav .nav > div:nth-of-type(2) ul {
+  margin-left: 250px;
+}
+nav .nav > div:nth-of-type(2) ul li {
+  float: left;
+  width: 170px;
+  height: 70px;
+}
+nav .nav > div:nth-of-type(2) ul li a {
+  color: #c0bfc6;
+  font-size: 14px;
+}
+nav .nav > div:nth-of-type(2) ul li:hover {
+  border-bottom: 3px solid #f17538;
+}
+nav .nav > div:nth-of-type(2) ul li:hover a {
+  color: #f17538;
+}
+section {
+  padding-bottom: 50px;
+  height: 3000px;
+  width: 100%;
+  height: 100%;
+}
+section .live {
+  margin-top: 20px;
+  background-color: #fff;
+}
+section .live .top {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+section .live .top p {
+  display: inline;
+  border-left: 4px solid #f85343;
+  padding-left: 20px;
+}
+section .live .middle {
+  height: 300px;
+  border-bottom: 3px dotted #f4f4f4;
+}
+section .live .middle li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+section .live .middle li p {
+  margin-top: 10px;
+}
+section .live .bottom {
+  height: 130px;
+}
+section .live .bottom ul li {
+  float: left;
+  margin-left: 45px;
+  width: 110px;
+  text-align: center;
+  margin-top: 15px;
+}
