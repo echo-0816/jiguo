@@ -1,0 +1,137 @@
+.box {
+  width: 100%;
+  height: 100%;
+}
+.box .login {
+  margin: 200px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 894px;
+  height: 400px;
+}
+.box .login .login-left {
+  float: left;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  padding-right: 67px;
+  border-right: 1px solid #cccccc;
+}
+.box .login .login-left p {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 25px;
+}
+.box .login .login-left .pho {
+  width: 422px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  margin-top: 35px;
+}
+.box .login .login-left .pho #tel {
+  width: 364px;
+  height: 49px;
+  line-height: 50px;
+  padding-left: 55px;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+  background: url(img/手机.png) no-repeat 10px 10px;
+}
+.box .login .login-left .pho #password {
+  margin-top: 10px;
+  width: 364px;
+  height: 49px;
+  line-height: 50px;
+  padding-left: 55px;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+  background: url(img/开锁2.png) no-repeat 5px 5px;
+}
+.box .login .login-left .num {
+  width: 422px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  margin-top: 10px;
+}
+.box .login .login-left .num #password {
+  width: 364px;
+  height: 49px;
+  line-height: 50px;
+  padding-left: 55px;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+  background: url(img/开锁2.png) no-repeat 10px 10px;
+}
+.box .login .login-left .text {
+  margin-top: 23px;
+}
+.box .login .login-left .text .next-text {
+  padding-left: 4px;
+  font-size: 14px;
+  color: #cccccc;
+}
+.box .login .login-left .text #btn {
+  margin-left: 100px;
+  width: 204px;
+  height: 50px;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fe584d;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+}
+.box .login .login-left .res {
+  margin-top: 26px;
+}
+.box .login .login-left .res .res-new {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 23px;
+}
+.box .login .login-left .res .forget {
+  color: #cccccc;
+  font-size: 16px;
+  padding-left: 260px;
+}
+.box .login .login-right {
+  width: 216px;
+  float: left;
+  padding-left: 57px;
+  margin-top: 30px;
+  margin-right: 69px;
+  position: relative;
+}
+.box .login .login-right .right-text {
+  font-size: 14px;
+  color: #cccccc;
+  text-align: center;
+}
+.box .login .login-right .cuo {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+.box .login .login-right .login-img {
+  margin-top: 25px;
+}
+.box .login .login-right .icon {
+  margin-top: 10px;
+}
+.box .login .login-right .icon .wb {
+  font-size: 14px;
+  color: #cccccc;
+  padding: 0 20px;
+  border-right: 1px solid #cccccc;
+}
+.box .login .login-right .icon .qq {
+  font-size: 14px;
+  color: #cccccc;
+  padding-left: 20px;
+}

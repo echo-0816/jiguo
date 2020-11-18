@@ -63,7 +63,7 @@
   border-radius: 10px;
 }
 .use .use-bottom .shop #item li:hover {
-  transform: rotateY(360deg) scale(1.2, 1.2);
+  transform: rotate(360deg) scale(1.2, 1.2);
   transition: transform 2s;
 }
 .use .use-bottom .shop #item li:nth-of-type(4n) {
@@ -85,6 +85,7 @@
   font-weight: bold;
 }
 .use .use-bottom .shop #item li .use-text .use-box-num {
+  margin-top: 5px;
   width: 205px;
   color: #cccccc;
 }
@@ -108,12 +109,11 @@
   width: 47px;
   height: 23px;
   line-height: 23px;
-  margin-left: 13px;
   font-size: 14px;
   border: 1px solid #cccccc;
 }
 .use .use-bottom .shop #item li .use-text .shen {
-  margin-top: 12px;
+  margin-top: 10px;
   text-align: center;
   font-size: 14px;
 }
@@ -121,7 +121,8 @@
   color: red;
 }
 .use .use-bottom .shop #item li .use-text .report {
-  margin-top: 9px;
+  margin-top: 5px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 13px;
   color: #cccccc;
