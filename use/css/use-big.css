@@ -63,7 +63,7 @@
   border-radius: 10px;
 }
 .use .use-bottom .shop ul li:hover {
-  transform: scale(1.2, 1.2);
+  transform: rotate(720deg);
   transition: transform 2s;
 }
 .use .use-bottom .shop ul li:nth-of-type(4n) {
@@ -81,10 +81,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  color: white;
-  background-color: red;
+  color: #DBC893;
+  background-color: #F8F3CB;
   border-radius: 0 10px 0 10px;
-  width: 40px;
+  width: 80px;
   text-align: center;
   line-height: 25px;
 }

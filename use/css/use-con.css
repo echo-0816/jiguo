@@ -53,7 +53,7 @@
   margin: 0 auto;
   width: 1000px;
 }
-.use .use-bottom .shop #item li {
+.use .use-bottom .shop ul li {
   float: left;
   margin-right: 37px;
   margin-bottom: 30px;
@@ -62,34 +62,48 @@
   background-color: #ffffff;
   border-radius: 10px;
 }
-.use .use-bottom .shop #item li:hover {
-  transform: rotate(360deg) scale(1.2, 1.2);
+.use .use-bottom .shop ul li:hover {
+  transform: skewX(45deg) scale(1.2, 1.2);
   transition: transform 2s;
 }
-.use .use-bottom .shop #item li:nth-of-type(4n) {
+.use .use-bottom .shop ul li:nth-of-type(4n) {
   margin-right: 0;
 }
-.use .use-bottom .shop #item li .use-img img {
+.use .use-bottom .shop ul li .use-img {
+  position: relative;
+}
+.use .use-bottom .shop ul li .use-img img {
   width: 222px;
   height: 131px;
   border-radius: 10px;
 }
-.use .use-bottom .shop #item li .use-text {
+.use .use-bottom .shop ul li .use-img .fa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: red;
+  border-radius: 0 10px 0 10px;
+  width: 40px;
+  text-align: center;
+  line-height: 25px;
+}
+.use .use-bottom .shop ul li .use-text {
   width: 203px;
   margin-left: 7px;
   margin-top: 12px;
 }
-.use .use-bottom .shop #item li .use-text .use-text-name {
+.use .use-bottom .shop ul li .use-text .use-text-name {
   font-size: 16px;
   text-align: center;
   font-weight: bold;
 }
-.use .use-bottom .shop #item li .use-text .use-box-num {
+.use .use-bottom .shop ul li .use-text .use-box-num {
   margin-top: 5px;
   width: 205px;
   color: #cccccc;
 }
-.use .use-bottom .shop #item li .use-text .use-box-num .use-box {
+.use .use-bottom .shop ul li .use-text .use-box-num .use-box {
   text-align: center;
   border-radius: 5px;
   margin-right: 13px;
@@ -101,7 +115,7 @@
   font-size: 14px;
   border: 1px solid #cccccc;
 }
-.use .use-bottom .shop #item li .use-text .use-box-num .use-box1 {
+.use .use-bottom .shop ul li .use-text .use-box-num .use-box1 {
   text-align: center;
   border-radius: 5px;
   margin-right: 13px;
@@ -112,15 +126,15 @@
   font-size: 14px;
   border: 1px solid #cccccc;
 }
-.use .use-bottom .shop #item li .use-text .shen {
+.use .use-bottom .shop ul li .use-text .shen {
   margin-top: 10px;
   text-align: center;
   font-size: 14px;
 }
-.use .use-bottom .shop #item li .use-text .shen span {
+.use .use-bottom .shop ul li .use-text .shen span {
   color: red;
 }
-.use .use-bottom .shop #item li .use-text .report {
+.use .use-bottom .shop ul li .use-text .report {
   margin-top: 5px;
   padding-bottom: 10px;
   text-align: center;

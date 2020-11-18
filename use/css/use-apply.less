@@ -1,4 +1,5 @@
 // 试玩-申请
+
 .use{
     width: 100%;
     padding-top: 50px;
@@ -46,6 +47,7 @@
                 display: inline-block;
                 font-size: 14px;
                 margin-left: 130px;
+               
                 
                 a{
                     
@@ -65,7 +67,7 @@
             padding-top:  26px;
             margin: 0 auto;
             width: 1000px;
-            #item{
+            ul{
                 
                 li{
                     float: left;
@@ -83,11 +85,24 @@
                     &:nth-of-type(4n){
                         margin-right: 0;
                     }
+                    
                     .use-img{
+                        position: relative;
                         img{
                             width: 222px;
                             height: 131px;
                             border-radius: 10px;
+                        }
+                        .fa{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            color: white;
+                            background-color: red;
+                            border-radius: 0 10px 0 10px;
+                            width: 40px;
+                            text-align: center;
+                            line-height: 25px;
                         }
                     }
 
