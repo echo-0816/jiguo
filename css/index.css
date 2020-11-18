@@ -1,0 +1,309 @@
+nav {
+  background: url(img/original.jpg) no-repeat left center;
+  height: 300px;
+  margin-left: -200px;
+}
+nav .nav div {
+  margin-right: -100px;
+  width: 320px;
+  height: 215px;
+  float: right;
+  color: #fff;
+  text-align: right;
+}
+nav .nav div h1 {
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+nav .nav div span {
+  padding: 3px 6px;
+  background-color: #f5d095;
+  margin-left: 6px;
+}
+nav .nav div p {
+  margin: 20px auto;
+}
+nav .nav div button {
+  color: #fff;
+  background-color: #fe5341;
+  padding: 6px 50px;
+  font-size: 14px;
+  border: none;
+}
+.nav-bottom {
+  background-color: #fff;
+  height: 380px;
+}
+.nav-bottom > div .top {
+  height: 66px;
+  line-height: 66px;
+  font-size: 16px;
+}
+.nav-bottom > div .bottom {
+  position: relative;
+}
+.nav-bottom > div .bottom ul li {
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  width: 222px;
+  height: 280px;
+  background-color: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+}
+.nav-bottom > div .bottom ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+.nav-bottom > div .bottom ul li .use-img img {
+  width: 220px;
+  height: 131px;
+  border-radius: 10px 10px 0 0;
+}
+.nav-bottom > div .bottom ul li .use-text {
+  width: 203px;
+  margin-left: 7px;
+  margin-top: 12px;
+}
+.nav-bottom > div .bottom ul li .use-text .use-text-name {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.nav-bottom > div .bottom ul li .use-text .use-box-num {
+  color: #f7796a;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.nav-bottom > div .bottom ul li .use-text .use-box-num span {
+  border: 1px solid #f7796a;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+.nav-bottom > div .bottom ul li .use-text .use-box-num span:nth-of-type(1) {
+  margin-left: 55px;
+}
+.nav-bottom > div .bottom ul li .shen {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+.nav-bottom > div .bottom ul li .shen span {
+  color: red;
+}
+.nav-bottom > div .bottom ul li .report {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #f7796a;
+}
+.nav-bottom > div .bottom > div {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -37px;
+}
+.nav-bottom > div .bottom > div img {
+  position: absolute;
+}
+.nav-bottom > div .bottom > div img:nth-of-type(1) {
+  left: -50px;
+}
+.nav-bottom > div .bottom > div img:nth-of-type(2) {
+  right: -50px;
+}
+article .report {
+  height: 590px;
+}
+article .report .top {
+  height: 66px;
+  line-height: 66px;
+  font-size: 20px;
+}
+article .report .top h4 {
+  float: left;
+}
+article .report .top p {
+  float: right;
+}
+article .report .top p a {
+  color: #fe503d;
+  font-size: 13px;
+}
+article .report ul li {
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 230px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+article .report ul li > img {
+  width: 220px;
+  height: 130px;
+}
+article .report ul li p,
+article .report ul li span:nth-of-type(1) {
+  margin-left: 10px;
+}
+article .report ul li p:nth-of-type(1) {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #616775;
+  margin-bottom: 20px;
+}
+article .report ul li span {
+  color: #c0bfc6;
+}
+article .report ul li span img {
+  width: 13px;
+}
+article .report ul li span:nth-of-type(1) {
+  margin-right: 110px;
+  color: #c0bfc6;
+}
+article .report ul li span:nth-of-type(2) {
+  margin-left: 5px;
+}
+article .report ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+article .report ul li:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1.5s;
+}
+article .guide {
+  height: 345px;
+  background-color: #fff;
+}
+article .guide .top {
+  height: 66px;
+  line-height: 66px;
+  font-size: 20px;
+}
+article .guide .top h4 {
+  float: left;
+}
+article .guide .top p {
+  float: right;
+}
+article .guide .top p a {
+  color: #fe503d;
+  font-size: 13px;
+}
+article .guide ul li {
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 230px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+article .guide ul li > img {
+  width: 220px;
+  height: 130px;
+}
+article .guide ul li p,
+article .guide ul li span:nth-of-type(1) {
+  margin-left: 10px;
+}
+article .guide ul li p:nth-of-type(1) {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #616775;
+  margin-bottom: 20px;
+  height: 40px;
+}
+article .guide ul li span {
+  color: #c0bfc6;
+}
+article .guide ul li span img {
+  width: 13px;
+}
+article .guide ul li span:nth-of-type(1) {
+  margin-left: 160px;
+}
+article .guide ul li span:nth-of-type(2) {
+  margin-left: 5px;
+}
+article .guide ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+article .guide ul li:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1.5s;
+}
+article .coldplay {
+  height: 1180px;
+}
+article .coldplay .top {
+  height: 66px;
+  line-height: 66px;
+  font-size: 20px;
+}
+article .coldplay .top h4 {
+  float: left;
+}
+article .coldplay .top p {
+  float: right;
+}
+article .coldplay .top p a {
+  color: #fe503d;
+  font-size: 13px;
+}
+article .coldplay ul li {
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 230px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+article .coldplay ul li > img {
+  width: 220px;
+  height: 130px;
+}
+article .coldplay ul li p,
+article .coldplay ul li span:nth-of-type(1) {
+  margin-left: 10px;
+}
+article .coldplay ul li p:nth-of-type(1) {
+  font-size: 14px;
+  margin-top: 10px;
+}
+article .coldplay ul li p:nth-of-type(2) {
+  color: #c0bfc6;
+  margin-bottom: 25px;
+}
+article .coldplay ul li span {
+  color: #c0bfc6;
+}
+article .coldplay ul li span img {
+  width: 13px;
+}
+article .coldplay ul li span:nth-of-type(1) {
+  background-color: #f7fcfb;
+  margin-right: 110px;
+  color: #fc546a;
+}
+article .coldplay ul li span:nth-of-type(2) {
+  margin-left: 5px;
+}
+article .coldplay ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+article .coldplay ul li:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1.5s;
+}

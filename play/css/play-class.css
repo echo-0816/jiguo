@@ -66,6 +66,10 @@ section .live .middle li {
   margin-left: 50px;
   margin-top: 15px;
 }
+section .live .middle li div:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+}
 section .live .middle li p {
   margin-top: 10px;
 }
@@ -73,6 +77,126 @@ section .live .bottom {
   height: 130px;
 }
 section .live .bottom ul li {
+  float: left;
+  margin-left: 45px;
+  width: 110px;
+  text-align: center;
+  margin-top: 15px;
+}
+section .nurse {
+  margin-top: 20px;
+  background-color: #fff;
+}
+section .nurse .top {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+section .nurse .top p {
+  display: inline;
+  border-left: 4px solid #f85343;
+  padding-left: 20px;
+}
+section .nurse .middle {
+  height: 170px;
+  border-bottom: 3px dotted #f4f4f4;
+}
+section .nurse .middle li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+section .nurse .middle li div:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+}
+section .nurse .middle li p {
+  margin-top: 10px;
+}
+section .nurse .bottom {
+  height: 70px;
+}
+section .nurse .bottom ul li {
+  float: left;
+  margin-left: 45px;
+  width: 110px;
+  text-align: center;
+  margin-top: 15px;
+}
+section .fitness {
+  margin-top: 20px;
+  background-color: #fff;
+}
+section .fitness .top {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+section .fitness .top p {
+  display: inline;
+  border-left: 4px solid #f85343;
+  padding-left: 20px;
+}
+section .fitness .middle {
+  height: 170px;
+  border-bottom: 3px dotted #f4f4f4;
+}
+section .fitness .middle li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+section .fitness .middle li div:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+}
+section .fitness .middle li p {
+  margin-top: 10px;
+}
+section .fitness .bottom {
+  height: 70px;
+}
+section .fitness .bottom ul li {
+  float: left;
+  margin-left: 45px;
+  width: 110px;
+  text-align: center;
+  margin-top: 15px;
+}
+section .smart {
+  margin-top: 20px;
+  background-color: #fff;
+}
+section .smart .top {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+section .smart .top p {
+  display: inline;
+  border-left: 4px solid #f85343;
+  padding-left: 20px;
+}
+section .smart .middle {
+  height: 170px;
+  border-bottom: 3px dotted #f4f4f4;
+}
+section .smart .middle li {
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+section .smart .middle li div:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+}
+section .smart .middle li p {
+  margin-top: 10px;
+}
+section .smart .bottom {
+  height: 70px;
+}
+section .smart .bottom ul li {
   float: left;
   margin-left: 45px;
   width: 110px;

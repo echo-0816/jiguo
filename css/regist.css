@@ -1,0 +1,61 @@
+section .enroll {
+  height: 780px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+section .enroll > div {
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+section .enroll > div p {
+  display: inline;
+  padding-left: 15px;
+  border-left: 4px solid #fb5141;
+}
+section .enroll form {
+  width: 400px;
+  margin: 0 auto;
+}
+section .enroll form input {
+  height: 50px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+section .enroll form input:nth-of-type(-n+6) {
+  background-color: #f7f7f7;
+}
+section .enroll form input:nth-of-type(1),
+section .enroll form input:nth-of-type(4),
+section .enroll form input:nth-of-type(5),
+section .enroll form input:nth-of-type(6),
+section .enroll form input:nth-of-type(7) {
+  width: 390px;
+}
+section .enroll form input:nth-of-type(2),
+section .enroll form input:nth-of-type(3) {
+  width: 232px;
+}
+section .enroll form input:nth-of-type(7) {
+  background-color: #fe5341;
+  color: #fff;
+  font-size: 18px;
+}
+section .enroll form button,
+section .enroll form img {
+  margin-left: 20px;
+}
+section .enroll form button {
+  color: #b0b1a6;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  width: 130px;
+  height: 50px;
+  background-color: #fff;
+}

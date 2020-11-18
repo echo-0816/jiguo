@@ -61,7 +61,8 @@ section ul li span:nth-of-type(1) {
 section ul li p:nth-of-type(1) {
   font-size: 14px;
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  height: 40px;
 }
 section ul li span {
   color: #c0bfc6;
