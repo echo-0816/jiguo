@@ -162,6 +162,17 @@
             </li>
 
         </ul>
+
+        <div>
+            <p>
+                <img src="../css/img/more.png" alt="">
+                点击加载更多
+            </p>
+
+            <ul class="clearfix">
+
+            </ul>
+        </div>
     </section>
 
 
@@ -230,5 +241,18 @@
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/guid-new.js"></script>
 <script src="./js/all.js"></script>
+<script id="list_template" type="text/x-dot-template">
+
+    {{~it:item:index}}
+    <li>
+        <img src={{=item.img}}>
+        <div>
+            <p>{{=item.text}}</p>
+        </div>
+        <span><img src="./css/img/xin.png">{{=item.like}}</span>
+        <span><img src="./css/img/reply.png">{{=item.words}}</span>
+    </li>
+    {{~}}
+</script>
 
 </html>

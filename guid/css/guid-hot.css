@@ -39,7 +39,7 @@ nav .nav > div:nth-of-type(2) ul li:hover a {
 }
 section {
   padding-bottom: 50px;
-  height: 1030px;
+  height: auto;
 }
 section ul li {
   float: left;
@@ -49,7 +49,6 @@ section ul li {
   height: 230px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
 }
 section ul li > img {
   width: 220px;
@@ -62,10 +61,8 @@ section ul li span:nth-of-type(1) {
 section ul li p:nth-of-type(1) {
   font-size: 14px;
   margin-top: 10px;
-}
-section ul li p:nth-of-type(2) {
-  color: #c0bfc6;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  height: 40px;
 }
 section ul li span {
   color: #c0bfc6;
@@ -74,9 +71,7 @@ section ul li span img {
   width: 13px;
 }
 section ul li span:nth-of-type(1) {
-  background-color: #f7fcfb;
-  margin-right: 110px;
-  color: #fc546a;
+  margin-left: 160px;
 }
 section ul li span:nth-of-type(2) {
   margin-left: 5px;
@@ -85,6 +80,53 @@ section ul li:nth-of-type(4n) {
   margin-right: 0;
 }
 section ul li:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1.5s;
+}
+section > div > p {
+  color: #f57763;
+  text-align: center;
+  cursor: pointer;
+}
+section > div > ul li {
+  float: left;
+  margin-right: 37px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 230px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+section > div > ul li > img {
+  width: 220px;
+  height: 130px;
+}
+section > div > ul li p,
+section > div > ul li span:nth-of-type(1) {
+  margin-left: 10px;
+}
+section > div > ul li p:nth-of-type(1) {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+section > div > ul li span {
+  color: #c0bfc6;
+}
+section > div > ul li span img {
+  width: 13px;
+}
+section > div > ul li span:nth-of-type(1) {
+  margin-left: 160px;
+}
+section > div > ul li span:nth-of-type(2) {
+  margin-left: 5px;
+}
+section > div > ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+section > div > ul li:hover {
   transform: scale(1.2, 1.2);
   transition: transform 1.5s;
 }
