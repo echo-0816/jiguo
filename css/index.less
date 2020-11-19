@@ -43,8 +43,28 @@ nav {
 .nav-bottom {
     background-color: #fff;
     height: 380px;
-
+    
     &>div {
+        position: relative;
+        .nav-img {
+            width: 1000px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-top: -37px;
+
+            img {
+                position: absolute;
+            }
+
+            img:nth-of-type(1) {
+                left: -50px;
+            }
+
+            img:nth-of-type(2) {
+                right: -50px;
+            }
+        }
         .top {
             height: 66px;
             line-height: 66px;
@@ -52,102 +72,92 @@ nav {
         }
 
         .bottom {
-            position: relative;
-
+            
+            width: 100%;
+            overflow: hidden;
             ul {
+                width: 4008px;
+                height: 280px;
+                overflow: hidden;
                 li {
+                    width: 1002px;
                     float: left;
-                    margin-right: 37px;
-                    margin-bottom: 30px;
-                    box-sizing: border-box;
-                    width: 222px;
-                    height: 280px;
-                    background-color: #ffffff;
-                    border: 1px solid #f3f3f3;
-                    border-radius: 10px;
-
-                    &:nth-of-type(4n) {
-                        margin-right: 0;
-                    }
-
-                    .use-img {
-                        img {
-                            width: 220px;
-                            height: 131px;
-                            border-radius: 10px 10px 0 0;
+                    .con{
+                        float: left;
+                        margin-right: 37px;
+                        margin-bottom: 30px;
+                        box-sizing: border-box;
+                        width: 222px;
+                        height: 280px;
+                        background-color: #ffffff;
+                        border: 1px solid #f3f3f3;
+                        border-radius: 10px;
+    
+                       &:nth-of-type(4){
+                           margin-right: 0;
+                       }
+    
+                        .use-img {
+                            img {
+                                width: 220px;
+                                height: 131px;
+                                border-radius: 10px 10px 0 0;
+                            }
                         }
-                    }
-
-                    .use-text {
-                        width: 203px;
-                        margin-left: 7px;
-                        margin-top: 12px;
-
-                        .use-text-name {
-                            font-size: 16px;
+    
+                        .use-text {
+                            width: 203px;
+                            margin-left: 7px;
+                            margin-top: 12px;
+    
+                            .use-text-name {
+                                font-size: 16px;
+                                text-align: center;
+                                font-weight: bold;
+                            }
+    
+                            .use-box-num {
+                                color: #f7796a;
+                                margin-top: 5px;
+                                margin-bottom: 5px;
+    
+                                span {
+                                    border: 1px solid#f7796a;
+                                    border-radius: 5px;
+                                    margin-right: 5px;
+                                    font-size: 12px;
+                                    padding: 3px 6px;
+                                }
+    
+                                span:nth-of-type(1) {
+                                    margin-left: 55px;
+                                }
+                            }
+                        }
+    
+                        .shen {
+                            margin-top: 12px;
                             text-align: center;
-                            font-weight: bold;
-                        }
-
-                        .use-box-num {
-                            color: #f7796a;
-                            margin-top: 5px;
-                            margin-bottom: 5px;
-
+                            font-size: 14px;
+    
                             span {
-                                border: 1px solid#f7796a;
-                                border-radius: 5px;
-                                margin-right: 5px;
-                                font-size: 12px;
-                                padding: 3px 6px;
-                            }
-
-                            span:nth-of-type(1) {
-                                margin-left: 55px;
+                                color: red;
                             }
                         }
-                    }
-
-                    .shen {
-                        margin-top: 12px;
-                        text-align: center;
-                        font-size: 14px;
-
-                        span {
-                            color: red;
+    
+                        .report {
+                            margin-top: 5px;
+                            text-align: center;
+                            font-size: 13px;
+                            color: #f7796a;
                         }
-                    }
-
-                    .report {
-                        margin-top: 5px;
-                        text-align: center;
-                        font-size: 13px;
-                        color: #f7796a;
                     }
 
                 }
             }
 
 
-            &>div {
-                width: 1000px;
-                position: absolute;
-                top: 50%;
-                left: 0;
-                margin-top: -37px;
-
-                img {
-                    position: absolute;
-                }
-
-                img:nth-of-type(1) {
-                    left: -50px;
-                }
-
-                img:nth-of-type(2) {
-                    right: -50px;
-                }
-            }
+           
         }
     }
 }
@@ -399,4 +409,21 @@ article {
         }
     }
 
+}
+
+// 返回顶部
+.back-top{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+    border: 1px #ccc solid;
+    display: none;
+    img{
+        padding-top: 10px;
+    }
 }
