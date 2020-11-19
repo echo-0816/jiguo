@@ -36,7 +36,7 @@ $(function () {
         window.open('use-all.html', '_self');
     });
     $('.use .use-top .text a:nth-of-type(2)').on('click', function () {
-        window.open('use-apply.html', '_self');
+        window.open('use-dig.html', '_self');
     });
 
     // 自己页面 4
@@ -51,5 +51,10 @@ $(function () {
     });
     $('.use .use-top ul li:nth-of-type(4)').on('click', function () {
         window.open('use-over.html', '_self');
+    });
+
+    // detail
+    $('.use-bottom #ace li').on('click', function () {
+        window.open('use-detail.html', '_self');
     });
 })
