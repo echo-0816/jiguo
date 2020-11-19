@@ -42,9 +42,16 @@ function auto() {
             lis[m].onmouseenter = function () {
                 clearInterval(timer);
                 clearInterval(timer1);
+<<<<<<< HEAD
 
             }
             lis[m].onmouseleave = function () {
+=======
+                
+            }
+
+            lis[m].onmouseleave = function(){
+>>>>>>> 09d55168004d50a2500b86c33fbbdced67b370b0
                 auto();
             }
         }
