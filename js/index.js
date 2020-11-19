@@ -57,8 +57,13 @@ auto();
 
 var blo = document.getElementsByClassName('back-top')[0];
 
+<<<<<<< HEAD
+window.onscroll = function(){
+    if(document.documentElement.scrollTop == 0){
+=======
 window.onscroll = function () {
     if (window.documentElement == 0) {
+>>>>>>> 48296073a33a227f20e7e3a02bad5a96e50a04a2
         blo.style.display = 'none';
 
     } else {

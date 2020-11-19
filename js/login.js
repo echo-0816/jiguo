@@ -9,15 +9,24 @@
 //             password:$('#password').val()
 //         },
 
+<<<<<<< HEAD
 //         success:function(res){
 //             console(res);
 
+=======
+        success:function(res){
+            console(res);
+            if(res.msg == '登陆成功！'){
+                window.open('../index.html');
+            }
+>>>>>>> 7a1a0bf3a3e6fc22a4644d342411ff4cba1c74c9
           
 //         },
 
 //         dataType:'json'
 //     })
 
+<<<<<<< HEAD
     
 // })
 
@@ -52,4 +61,7 @@ $('#loginform').on('submit', function () {
         dataType: 'json'
     })
     return false;
+=======
+
+>>>>>>> 7a1a0bf3a3e6fc22a4644d342411ff4cba1c74c9
 })
