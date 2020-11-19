@@ -2,6 +2,7 @@
 
 //     $.ajax({
 
+<<<<<<< HEAD
 //         url:'http://192.168.1.64:3000/users/login',
 //         type:post,
 //         data:{
@@ -12,10 +13,18 @@
 <<<<<<< HEAD
 //         success:function(res){
 //             console(res);
+=======
+        url:'http://192.168.1.64:3000/users/login',
+        type:'post',
+        data:{
+            username:$('#tel').val(),
+            password:$('#password').val()
+        },
+>>>>>>> 256a4db2c1c94cdf0282743fd445254e1abbf401
 
 =======
         success:function(res){
-            console(res);
+            console.log(res);
             if(res.msg == '登陆成功！'){
                 window.open('../index.html');
             }
@@ -23,12 +32,17 @@
           
 //         },
 
+<<<<<<< HEAD
 //         dataType:'json'
 //     })
 
 <<<<<<< HEAD
     
 // })
+=======
+        dataType:'json',
+    })
+>>>>>>> 256a4db2c1c94cdf0282743fd445254e1abbf401
 
 //用户
 if (localStorage.getItem('miss') == 'true') {
