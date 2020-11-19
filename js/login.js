@@ -11,12 +11,14 @@ $('#btn').on('click',function(){
 
         success:function(res){
             console(res);
-
+            if(res.msg == '登陆成功！'){
+                window.open('../index.html');
+            }
           
         },
 
         dataType:'json'
     })
 
-    
+
 })

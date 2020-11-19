@@ -57,7 +57,7 @@ auto();
 var blo = document.getElementsByClassName('back-top')[0];
 
 window.onscroll = function(){
-    if(window.documentElement == 0){
+    if(document.documentElement.scrollTop == 0){
         blo.style.display = 'none';
 
     }else{
