@@ -123,7 +123,7 @@ $('#button').on('click', function () {
             console.log(res);
             $('#regist').find('#button').attr('disabled', true)
             if (res.msg = '注册成功') {
-                window.open('index.html');
+                window.open('login.html');
                 $('#regist input').val('');
                 $('#regist span').text('');
             }

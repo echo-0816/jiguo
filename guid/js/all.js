@@ -38,4 +38,9 @@ $(function () {
     $('nav .nav div:nth-of-type(2) li:nth-of-type(2)').on('click', function () {
         window.open('guid-hot.html', '_self');
     });
+
+    // 钢笔
+    $('section>ul>li').on('click', function () {
+        window.open('guid-details.html', '_self');
+    });
 })
