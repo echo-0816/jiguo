@@ -41,9 +41,11 @@ function auto(){
             lis[m].onmouseenter = function(){
                 clearInterval(timer);
                 clearInterval(timer1);
-                lis[m].onmouseleave = function(){
-                    auto();
-                }
+                
+            }
+
+            lis[m].onmouseleave = function(){
+                auto();
             }
         }
     },2000)
