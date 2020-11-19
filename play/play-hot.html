@@ -161,6 +161,17 @@
 
             <a href="#"></a>
         </ul>
+
+        <div>
+            <p>
+                <img src="../css/img/more.png" alt="">
+                点击加载更多
+            </p>
+
+            <ul class="clearfix">
+
+            </ul>
+        </div>
     </section>
 
 
@@ -228,8 +239,22 @@
 <script src="./js/doT.min.js"></script>
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/all.js"></script>
-<!-- <script src="./js/doT.min.js"></script>
-<script src="./js/jquery-3.5.1.js"></script>
-<script src="./js/play-new.js"></script> -->
+<script src="./js/play-hot.js"></script>
+<script id="list_template" type="text/x-dot-template">
+    {{~it:item:index}}
+        <li>
+            <img src={{=item.img}}>
+            <div>
+                <p>{{=item.text}}</p>
+                <p>{{=item.description}}</p>
+            </div>
+            <span>{{=item.price}}</span>
+            <span><img src="../css/img/xin.png">{{=item.like}}</span>
+            <span><img src="./css/img/reply.png">{{=item.words}}</span>
+        </li>
+
+    {{~}}
+
+</script>
 
 </html>
