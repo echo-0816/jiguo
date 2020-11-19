@@ -4,7 +4,6 @@ nav {
     margin-left: -200px;
 
     .nav {
-
         div {
             margin-right: -100px;
             width: 320px;
@@ -12,6 +11,7 @@ nav {
             float: right;
             color: #fff;
             text-align: right;
+            animation: mouse 2s;
 
             h1 {
                 font-size: 26px;
@@ -37,6 +37,15 @@ nav {
                 border: none;
             }
         }
+    }
+}
+
+@keyframes mouse {
+    0% {
+        transform: translate(200px,-200px);
+    }
+    100% {
+        transform: translate(0,0);
     }
 }
 
