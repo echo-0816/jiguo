@@ -10,6 +10,7 @@ nav .nav div {
   float: right;
   color: #fff;
   text-align: right;
+  animation: mouse 2s;
 }
 nav .nav div h1 {
   font-size: 26px;
@@ -30,6 +31,14 @@ nav .nav div button {
   padding: 6px 50px;
   font-size: 14px;
   border: none;
+}
+@keyframes mouse {
+  0% {
+    transform: translate(200px, -200px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .nav-bottom {
   background-color: #fff;

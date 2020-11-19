@@ -18,6 +18,7 @@ section .enroll > div p {
 section .enroll form {
   width: 400px;
   margin: 0 auto;
+  position: relative;
 }
 section .enroll form input {
   height: 50px;
@@ -58,4 +59,28 @@ section .enroll form button {
   width: 130px;
   height: 50px;
   background-color: #fff;
+}
+section .enroll form span {
+  position: absolute;
+  left: -20px;
+  width: 15px;
+  height: 15px;
+}
+section .enroll form span:nth-of-type(1) {
+  top: 18px;
+}
+section .enroll form span:nth-of-type(2) {
+  top: 96px;
+}
+section .enroll form span:nth-of-type(3) {
+  top: 173px;
+}
+section .enroll form span:nth-of-type(4) {
+  top: 250px;
+}
+section .enroll form span:nth-of-type(5) {
+  top: 326px;
+}
+section .enroll form span:nth-of-type(6) {
+  top: 403px;
 }

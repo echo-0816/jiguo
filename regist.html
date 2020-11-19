@@ -35,16 +35,22 @@
                 <p>注册极果</p>
             </div>
 
-            <form action="">
-                <input type="tel" placeholder="请输入登陆手机号">
-                <input type="text" placeholder="请输入图片校验码">
+            <form action="" id="regist">
+                <span id="tel"></span>
+                <input type="tel" id="tell" placeholder="请输入登陆手机号">
+                <span id="tupian"></span>
+                <input type="text" id="tu" placeholder="请输入图片校验码" pattern="">
                 <img src="./img/imgCode.jpg" alt="">
-                <input type="number" placeholder="请输入4位数字验证码">
-                <button>获取验证码</button>
-                <input type="text" placeholder="请输入用户名">
-                <input type="password" placeholder="请输入新密码">
-                <input type="password" placeholder="确定新密码">
-                <input type="button" value="立即注册">
+                <span id="number"></span>
+                <input type="number" id="num" placeholder="请输入4位数字验证码" pattern="">
+                <button id="huo">获取验证码</button>
+                <span id="user"></span>
+                <input type="text" id="us" placeholder="请输入用户名" pattern="">
+                <span id="pwd1"></span>
+                <input type="password" id="password1" placeholder="请输入新密码">
+                <span id="pwd2"></span>
+                <input type="password" id="password2" placeholder="确定新密码">
+                <input type="button" value="立即注册" id="button">
             </form>
         </div>
     </section>
@@ -114,5 +120,6 @@
 <script src="./js/doT.min.js"></script>
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/all.js"></script>
+<script src="./js/regist.js"></script>
 
 </html>
